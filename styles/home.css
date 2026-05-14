@@ -1,0 +1,141 @@
+.call-to-action {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action article {
+  width: 70%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.call-to-action img {
+  width: 30%;
+  border-radius: 50px;
+  padding: 20px 20px 20px 20px;
+}
+
+@media (max-width: 1023px) {
+  .call-to-action {
+    flex-direction: column;
+  }
+
+  .call-to-action article {
+    width: 100%;
+  }
+
+  .call-to-action img {
+    width: 60%;
+  }
+}
+
+.call-to-action button {
+  margin-top: 10px;
+}
+
+.call-to-action,
+.home-section {
+  margin-bottom: 72px;
+}
+
+.grid-home-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+@media (max-width: 833px) {
+  .grid-home-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-home-section article {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  
+  padding: 10px 36px 16px 36px;
+}
+
+.grid-home-section article:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  
+  padding: 10px 36px 16px 36px;
+}
+
+.home-div-heading {
+  line-height: 1.25;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.red-background-div {
+  background-color: rgb(254, 236, 231);
+  border-color: rgb(255, 201, 201);
+}
+
+.green-background-div {
+  background-color: rgb(240, 253, 244);
+  border-color: rgb(185, 248, 207);
+}
+
+.home-div-cite {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.check-list {
+  padding-left: 24px;
+  list-style-type: "✔️ ";
+}
+
+.cross-list {
+  padding-left: 24px;
+  list-style-type: "❌ ";
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-image {
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile div {
+  margin-left: 14px;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(114, 113, 113);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.social-networks-div {
+  display: flex;
+  align-items: center;
+  
+  margin-top: 6px;
+}
+
+.linkedin-logo {
+  width: 20px;
+  margin-left: -14px;
+  margin-right: 6px;
+}
